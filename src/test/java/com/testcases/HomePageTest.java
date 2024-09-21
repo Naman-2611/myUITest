@@ -48,8 +48,8 @@ public class HomePageTest extends TestBase {
 		Assert.assertTrue(actual.contains(expectedTitle), "Test Case Failed!!");
 		logger.info("HomePage TC1 - Verify Homepage Title - Test case passed");
 	}
-	//Test Case 2: About Page Navigation:
-	//Navigates to the "About" page and verifies the page title contains "About."
+	//Test Case 2:verifylinkScheduleYourDemo:
+	//verify link Schedule Your Demo page."
 	@Test(priority = 2)
 	public void verifylinkScheduleYourDemo() {
 		boolean status = homePage.linklnkScheduleYourDemo();
