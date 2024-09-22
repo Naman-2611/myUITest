@@ -23,5 +23,5 @@ Explanation of the Tests
 
 ### Key Features:
 - **Page Object Model (POM)**: Separates page functionalities from test logic.
-- **Constants**: Avoids hardcoded strings and numbers using the `Constants` class.
+- **Utility**: Avoids hardcoded strings and numbers using the `utils` class.
 - **Reusability**: Methods in `BaseTest` provide reusable setup and teardown operations.
